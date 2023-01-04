@@ -1,0 +1,156 @@
+body {
+    position: relative;
+    background-image: url("../html/back.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+a {
+    position: relative;
+    width: 5cm;
+    height: 3cm;
+    border-style: none;
+    border-radius: 0.1cm;
+    border-width: 0.01cm;
+    border-color: black;
+    font-weight: bold;
+    color: rgb(0, 0, 0);
+    background-color:transparent;
+    text-decoration: none;
+    transition: 0.3s ease-in-out;
+    padding: 0.1cm;
+
+}
+a:hover {
+    background-color:black;
+    cursor: pointer;
+    color: rgb(255, 255, 255);
+    backdrop-filter: blur("6px");
+    transition: 0.3s ease-in-out;
+}
+.navbar { 
+    position: relative;
+    backdrop-filter: blur(3px);
+    border-style: none;
+    padding: 0.1cm;
+    border-width: 0.01cm;
+    border-radius: 0.1cm;
+    background-color: rgba(255, 0, 0, 0.356);
+    backdrop-filter: blur(5px);
+    
+}
+
+p{
+    position: relative;
+    width: 100vmax;
+    height: 8cm;
+    font-size: xx-large;
+    font-weight: bolder;
+ 
+    background-color: transparent;
+    backdrop-filter: blur(1px);
+    left: 0cm;
+    
+    
+    color: rgb(0, 0, 0);
+}
+
+ul {
+    position: relative;
+    color: rgb(255, 255, 255);
+    font-size: larger;
+    font-weight: bold;
+    text-transform: uppercase;
+    background-color: rgba(0, 0, 0, 0.596);
+    backdrop-filter: blur(4px);
+    width: 17cm;
+    border-style: none;
+    border-radius: 1cm;
+}
+li {
+    list-style:decimal;
+    color: yellow;
+}
+
+form{
+    position: relative;
+    background-color: rgba(255, 255, 0, 0.637);
+    backdrop-filter: blur(4px);
+    padding: 1cm;
+}
+button {
+    position: relative;
+    width: 4cm;
+    height: 0.8cm;
+    background-color: rgb(255, 252, 205);
+    color: black;
+    font-weight: bold;
+    text-align: center;
+    transition: 0.3s ease-in-out;
+    border-style: solid;
+    border-width: 0.01cm;
+    border-radius: 0.3cm;
+
+}
+button:hover {
+    background-color: rgb(172, 172, 172);
+    cursor: pointer;
+    transition: 0.3s ease-in-out;
+}
+input{
+    position: relative;
+    width: 7cm;
+    height: 1cm;
+    border-style: solid;
+    border-width: 0.01cm;
+    border-radius: 0.2cm;
+    background-color: rgba(192, 192, 192, 0.671);
+    font-size: larger;
+}
+font {
+    position: relative;
+    color: rgb(255, 0, 0);
+    text-transform: capitalize;
+    font-weight: bolder;
+    font-size: larger;
+}
+.teslim {
+    color: green;
+}
+fieldset {
+    position: relative;
+    background-color: rgba(255, 255, 0, 0.726);
+    backdrop-filter: blur(3px);
+    padding: 0.3cm;
+    border-style: none;
+}
+legend {
+    position: relative;
+    top: 0.2cm;
+    text-decoration: underline;
+    font-size: xx-large;
+    font-weight: bold;
+    text-transform: uppercase;
+    color: black;
+
+}
+
+table {
+    position: fixed;
+    top: 3cm;
+    width: fit-content;
+    background-color:transparent;
+    border-style: none;
+}
+th {
+
+    width: fit-content;
+    background-color: transparent;
+    border-style: none;
+    color: rgb(0, 0, 0); 
+}
+td {
+
+    width: fit-content;
+    background-color: rgb(238, 255, 1);
+    color: rgb(0, 0, 0);
+}
